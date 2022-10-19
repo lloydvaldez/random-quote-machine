@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F8ECD1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  background: #85586F;
+  display: table;
+  position: relative;
+  margin: 300px auto auto auto;
+  padding: 30px 50px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 10px #DEB6AB;
+  font-family: 'Tangerine', cursive;
+  font-weight: 700;
+}
+
+.quote-text {
+  color: #DEB6AB;
+  font-size: 2em;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 2em;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #DEB6AB;
+  font-weight: 400;
+}
+
+.buttons {
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+.button {
+  background: #AC7D88;
+  color: #DEB6AB;
+  border-style: none;
+  border-radius: 3px;
+  padding: 10px 10px;
+  margin: 10px 5px;
+}
+
+#tweet-quote {
+  float: left;
+  text-align:center;
+}
+
+#new-quote {
+  float: right;
+  margin: 10px 10px 0 0;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  font-size: 1em;
+  margin-top: 20px;
+}
