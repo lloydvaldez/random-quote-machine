@@ -1,32 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
+:root {
+  --cream: #F8ECD1;
+  --peach: #DEB6AB;
+  --light-grape: #AC7D88;
+  --grape: #85586F;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background: #F8ECD1;
+  background: var(--cream);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 #quote-box {
-  background: #85586F;
+  background: var(--grape);
   display: table;
   position: relative;
   margin: 300px auto auto auto;
   padding: 30px 50px;
   width: 500px;
   border-radius: 10px;
-  box-shadow: 5px 10px #DEB6AB;
+  box-shadow: 5px 10px var(--peach);
   font-family: 'Tangerine', cursive;
   font-weight: 700;
 }
 
 .quote-text {
-  color: #DEB6AB;
+  color: var(--peach);
   font-size: 2em;
 }
 
@@ -36,7 +43,7 @@ body {
   margin-right: 100px;
   margin-top: 10px;
   margin-bottom: 20px;
-  color: #DEB6AB;
+  color: var(--peach);
   font-weight: 400;
 }
 
@@ -63,6 +70,15 @@ body {
 #new-quote {
   float: right;
   margin: 10px 10px 0 0;
+}
+
+#tweet-quote:hover, #new-quote:hover {
+  box-shadow: 5px 5px var(--cream);
+  translate: -5px -5px;
+}
+
+#new-quote:hover {
+  cursor: pointer;
 }
 
 .footer {
